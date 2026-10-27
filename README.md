@@ -1,42 +1,145 @@
-# Elk's RP Mounts Anywhere 🦌
+# 🦌 Elk's RP Mounts Anywhere
 
-**Mount anywhere. Roleplay everywhere.** A cosmetic mount companion plugin for Final Fantasy XIV, built for roleplayers and anyone who enjoys making their mounts part of their character's everyday style.
+**Bring your mounts into the story.** ✨
 
-**FR:** Faites apparaître vos montures préférées comme accessoires cosmétiques, y compris dans les villes et les intérieurs, sans bonus de vitesse ni de vol. Sélectionnez-les depuis une interface FR/EN ou, en mode expérimental, depuis vos barres d’actions FFXIV. Retrouvez vos favoris, créez des macros et partagez leur apparence via Moodles et un service de synchronisation compatible.
+Ever wanted to park your car in a city, bring a chair mount into a house, or simply hang out with your favorite mount during an RP scene? That's exactly why I made **Elk's RP Mounts Anywhere**.
 
-**EN:** Use your favorite mounts as cosmetic RP accessories, including in cities and interiors, without added speed or flight. Select mounts through the FR/EN interface or experimentally via FFXIV hotbars. Save favorites, copy macros, and share their appearance using Moodles and a compatible synchronization service.
+This Dalamud plugin lets you use mounts as **cosmetic appearances** in places where you normally couldn't summon them. And yes: **modded mounts are compatible too!** 💚💜
 
-## 🇫🇷 Installation et prérequis
+The goal is simple: more freedom for RP, without extra speed or flight.
 
-- **Requis :** FFXIV, XIVLauncher/Dalamud et une version du plugin compatible avec votre version de Dalamud.
-- **Pour synchroniser avec d’autres joueurs :** le plugin [Moodles](https://github.com/Ottermandias/SeaOfStars), sa configuration de réception, et un service de synchronisation de statuts compatible chez les deux joueurs. **Moodles ne transmet pas, à lui seul, des états entre deux ordinateurs.**
-- **Installation du plugin :** dans le jeu, saisissez `/xlsettings` → **Experimental** → **Custom Plugin Repositories**, collez l’adresse du dépôt Elk (elle sera disponible une fois le dépôt public publié), cliquez sur `+`, activez le dépôt et enregistrez. Ouvrez ensuite `/xlplugins` pour installer **Elk's RP Mounts Anywhere**.
-- **Installation de Moodles :** ajoutez de la même manière le dépôt SeaOfStars :
+[🇫🇷 Français](#-français) · [🇬🇧 English](#-english)
 
-  `https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json`
+---
 
-- **Commandes :** `/emount` (menu), `/emount welcome` (accueil), `/emount setup` (configuration Moodles), `/emount toggle 340` (monture d'exemple), `/emount off` (descendre).
+## 🇫🇷 Français
 
-> Les montures sont uniquement cosmétiques. Le plugin utilise des états natifs expérimentaux du client FFXIV ; certaines interactions peuvent être perturbées. Testez prudemment et respectez les règles applicables à votre compte.
+### C'est quoi, exactement ?
 
-## 🇬🇧 Requirements & installation
+Vous connaissez ce moment où votre personnage devrait pouvoir s'installer sur sa monture pour une scène RP… mais où le jeu vous dit non parce que vous êtes en ville ou dans une maison ?
 
-- **Required:** FFXIV, XIVLauncher/Dalamud and a plugin build compatible with your Dalamud version.
-- **For multiplayer sync:** [Moodles](https://github.com/Ottermandias/SeaOfStars), properly configured, and a compatible status synchronization service for both players. **Moodles alone is not an internet relay.**
-- **Install:** in game, open `/xlsettings` → **Experimental** → **Custom Plugin Repositories**. Paste Elk's published repository URL (available after the repository is released), add it with `+`, enable and save it. Then open `/xlplugins` and install **Elk's RP Mounts Anywhere**.
-- **Install Moodles:** add SeaOfStars to the same repository list:
+**Elk's RP Mounts Anywhere** est né pour ça. Le plugin permet d'afficher vos montures comme un élément cosmétique, où vous en avez besoin pour vos scènes RP, tout en continuant à vous déplacer normalement.
 
-  `https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json`
+Et le meilleur : **les montures moddées sont compatibles !** Si vos mods et votre système de synchronisation sont correctement configurés, vos amis peuvent aussi voir leur apparence personnalisée.
 
-- **Commands:** `/emount` (menu), `/emount welcome` (welcome), `/emount setup` (Moodles wizard), `/emount toggle 340` (example mount), `/emount off` (dismount).
+### Ce que vous pouvez faire
 
-> Cosmetic only. Experimental FFXIV client state changes may affect some interactions. Test carefully and consider the applicable game policies.
+- Faire apparaître vos montures en ville, en intérieur et dans vos lieux de RP.
+- Les utiliser directement depuis vos **barres de raccourcis**, avec vos touches habituelles.
+- Choisir une monture dans le menu du plugin, retrouver vos favoris et créer des macros.
+- Descendre de votre monture facilement.
+- Synchroniser l'apparence de vos montures avec vos amis via **Moodles** et un outil de synchronisation compatible.
+- Profiter des **montures moddées**, y compris lorsque leurs apparences sont partagées avec vos amis.
+- Utiliser le plugin en **français ou en anglais**.
 
-## Contact / Support
+Il s'agit uniquement d'un affichage cosmétique : **pas de bonus de vitesse, pas de vol ajouté**.
 
-**Discord:** `@elktargets`  
-**Ko-fi:** https://ko-fi.com/xxgothcatxx *(page encore en préparation depuis 2 ans / still under construction for 2 years)*
+### Installation
 
-Developer publishing instructions / Guide de publication : [docs/PUBLISHING_GUIDE_FR.md](docs/PUBLISHING_GUIDE_FR.md).
+**Prérequis :** FINAL FANTASY XIV et XIVLauncher / Dalamud. Pour la synchronisation entre joueurs, il faut aussi **Moodles** et un système de synchronisation compatible avec ses statuts (ainsi que les mods concernés, si vous utilisez des apparences moddées).
 
-*Not affiliated with Square Enix or the Dalamud team. Third-party plugins are used at the user's own risk.*
+1. En jeu, ouvrez `/xlsettings` → **Experimental** → **Custom Plugin Repositories**.
+2. Ajoutez l'adresse du dépôt :
+
+   ```text
+   https://raw.githubusercontent.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/main/pluginmaster.json
+   ```
+
+3. Activez ce dépôt, puis enregistrez.
+4. Ouvrez `/xlplugins`, cherchez **Elk's RP Mounts Anywhere** et installez-le.
+5. Lancez `/emount` et suivez le message de bienvenue.
+
+> **À noter :** le lien du dépôt Dalamud fonctionnera une fois `pluginmaster.json` publié sur la branche `main`. En attendant, retrouvez les fichiers de la version actuelle dans les [Releases GitHub](https://github.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/releases/tag/v1.0.2.3).
+
+**Pour installer Moodles**, ajoutez également le dépôt [SeaOfStars](https://github.com/Ottermandias/SeaOfStars) à vos Custom Plugin Repositories :
+
+```text
+https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json
+```
+
+Moodles transporte les informations de monture dans ses statuts. **Pour que vos amis les reçoivent**, vous devez aussi avoir un service de synchronisation compatible configuré entre vous : Moodles seul ne relie pas deux clients à distance.
+
+### Commandes pratiques
+
+| Commande | À quoi elle sert |
+| --- | --- |
+| `/emount` | Ouvrir le menu du plugin |
+| `/emount welcome` | Revoir le message de bienvenue |
+| `/emount setup` | Ouvrir l'assistant Moodles |
+| `/emount toggle 340` | Activer / retirer la monture 340 (exemple) |
+| `/emount off` | Descendre de la monture cosmétique |
+
+### Un retour, une idée, un bug ?
+
+N'hésitez pas à m'envoyer un message privé sur Discord : **@elktargets**. Je serai ravi de voir ce que vous faites du plugin en RP !
+
+☕ [Ko-fi — xxgothcatxx](https://ko-fi.com/xxgothcatxx) *(oui, la page est encore en préparation 😅)*
+
+---
+
+## 🇬🇧 English
+
+### What's this plugin about?
+
+Ever wanted to pull up in your car mount in a city, bring a chair mount indoors, or just keep your favorite mount around for an RP scene, only for the game to say no?
+
+That's what **Elk's RP Mounts Anywhere** is for. It lets you use mounts as **cosmetic appearances** in places where you normally can't summon them, while still being able to move around.
+
+And yes, **modded mounts work too!** With your mods and a compatible sync setup in place, your friends can see their customized appearances as well.
+
+### What can you do with it?
+
+- Show off your mounts in cities, interiors, and other RP spots.
+- Summon them straight from your **hotbars / shortcut bars**, using your usual keybinds.
+- Pick mounts from the plugin menu, save favorites, and make macros.
+- Dismount easily when you're done.
+- Share mount appearances with friends through **Moodles** and a compatible sync tool.
+- Use **modded mounts**, including shared modded appearances.
+- Switch between **English and French**.
+
+Everything is cosmetic: **no extra movement speed and no added flight**.
+
+### Installation
+
+**You'll need:** FINAL FANTASY XIV and XIVLauncher / Dalamud. For multiplayer sync, you'll also need **Moodles**, a compatible status-sync service, and the relevant mods if you're using custom mount appearances.
+
+1. In-game, open `/xlsettings` → **Experimental** → **Custom Plugin Repositories**.
+2. Add this repository URL:
+
+   ```text
+   https://raw.githubusercontent.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/main/pluginmaster.json
+   ```
+
+3. Enable the repository and save.
+4. Open `/xlplugins`, find **Elk's RP Mounts Anywhere**, and install it.
+5. Type `/emount` and follow the welcome screen.
+
+> **Note:** This Dalamud repository URL will work once `pluginmaster.json` is published on `main`. Until then, you can find the current build on [GitHub Releases](https://github.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/releases/tag/v1.0.2.3).
+
+**To install Moodles**, add the [SeaOfStars](https://github.com/Ottermandias/SeaOfStars) repository as well:
+
+```text
+https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json
+```
+
+Moodles carries the mount state, but **a compatible sync service is still needed to send that state to other players**. Moodles alone doesn't connect two game clients over the internet.
+
+### Useful commands
+
+| Command | What it does |
+| --- | --- |
+| `/emount` | Open the plugin menu |
+| `/emount welcome` | Replay the welcome message |
+| `/emount setup` | Open the Moodles setup wizard |
+| `/emount toggle 340` | Toggle mount 340 (example) |
+| `/emount off` | Dismount your cosmetic mount |
+
+### Questions, ideas, or found a bug?
+
+Feel free to DM me on Discord: **@elktargets**. I'd love to see how you use the plugin in your RP scenes!
+
+☕ [Ko-fi — xxgothcatxx](https://ko-fi.com/xxgothcatxx) *(yes, the page is still a work in progress 😅)*
+
+---
+
+*Made for RP. Not affiliated with Square Enix, XIVLauncher, or the Dalamud team.*
