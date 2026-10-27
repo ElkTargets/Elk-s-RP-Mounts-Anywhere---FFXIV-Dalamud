@@ -73,7 +73,7 @@ Moodles transporte les informations de monture dans ses statuts. **Pour que vos 
 
 N'hésitez pas à m'envoyer un message privé sur Discord : **@elktargets**. Je serai ravi de voir ce que vous faites du plugin en RP !
 
-☕ [Ko-fi — xxgothcatxx](https://ko-fi.com/xxgothcatxx) *(oui, la page est encore en préparation 😅)*
+☕ [Ko-fi — xxgothcatxx](https://ko-fi.com/xxgothcatxx) *(oui, la page est toujours pas finie depuis 2 ans 😅)*
 
 ---
 
