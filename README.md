@@ -1,4 +1,4 @@
-# 🦌 Elk's RP Mounts Anywhere
+# Elk's RP Mounts Anywhere
 
 **Bring your mounts into the story.** ✨
 
@@ -8,11 +8,11 @@ This Dalamud plugin lets you use mounts as **cosmetic appearances** in places wh
 
 The goal is simple: more freedom for RP, without extra speed or flight.
 
-[🇫🇷 Français](#-français) · [🇬🇧 English](#-english)
+[Français](#-français) · [English](#-english)
 
 ---
 
-## 🇫🇷 Français
+## Français
 
 ### C'est quoi, exactement ?
 
@@ -77,7 +77,7 @@ N'hésitez pas à m'envoyer un message privé sur Discord : **@elktargets**. Je 
 
 ---
 
-## 🇬🇧 English
+## English
 
 ### What's this plugin about?
 
