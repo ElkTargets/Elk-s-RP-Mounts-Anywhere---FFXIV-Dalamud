@@ -1,3 +1,4 @@
+
 [
   {
     "Author": "Elk",
@@ -5,10 +6,11 @@
     "InternalName": "RPMounts",
     "AssemblyVersion": "1.0.2.3",
     "RepoUrl": "https://github.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud",
+    "IconUrl": "https://raw.githubusercontent.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/main/ElkRPMA-Icon.png",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "Punchline": "Mount anywhere, stay in style — cosmetic RP mounts with Moodles sync.",
-    "Description": "Turn your favorite mounts into a roleplay accessory, even indoors and in cities. Use familiar FFXIV hotbars, browse mount icons, create macros and share cosmetic mounts with friends through Moodles and compatible sync services. Supports FR/EN and modded appearances. Visual only: no extra speed, flight or movement abilities. Experimental native state modifications; use at your own risk.",
+    "Description": "Bring your favorite mounts into your RP scenes, even in cities and interiors! Use mounts from your shortcut bars, browse your collection, save favorites and create macros. Modded mounts are supported too, and you can share cosmetic appearances with friends through Moodles and compatible sync tools. Available in English and French. No extra speed or flight.",
     "Tags": [
       "roleplay",
       "cosmetic",
