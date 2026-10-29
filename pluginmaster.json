@@ -4,7 +4,7 @@
     "Author": "Elk",
     "Name": "Elk's RP Mounts Anywhere",
     "InternalName": "RPMounts",
-    "AssemblyVersion": "1.1.0.0",
+    "AssemblyVersion": "1.1.1.2",
     "RepoUrl": "https://github.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud",
     "IconUrl": "https://raw.githubusercontent.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/main/ElkRPMA-Icon.png",
     "ApplicableVersion": "any",
@@ -21,8 +21,8 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "TestingAssemblyVersion": null,
-    "DownloadLinkInstall": "https://github.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/releases/download/v1.1.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/releases/download/v1.1.0.0/latest.zip",
-    "LastUpdate": "1793222010"
+    "DownloadLinkInstall": "https://github.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/releases/download/v1.1.1.2/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/ElkTargets/Elk-s-RP-Mounts-Anywhere---FFXIV-Dalamud/releases/download/v1.1.1.2/latest.zip",
+    "LastUpdate": "1793233135"
   }
 ]
